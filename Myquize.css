@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  font-family: "Dancing Script", cursive;  
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80");
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+  backgroud-repeat: repeat-y;
+}
+
+.quizForm {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-radius: 5px;
+}
+
+.content {
+  text-align: center;
+  padding: 10px;
+  color: rgb(14, 13, 13);
+}
+
+h1 {
+  font-size: 3.5em;
