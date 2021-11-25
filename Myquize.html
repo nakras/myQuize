@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>MY Quize - v0.1</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="Myquize.css">
+	<script src="Myquize.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="quizForm">
+			<div class="content">
+				<h1>welcome to my house my friend</h1>
+				<hr>
+				<ul style="text-align: left;">
+
+					<!-- Here is Question one -->
+					<li>
+						<label for="sQ1">which class was added at Legion(5):</label>
+						<input type="text" id="sQ1" />
+					</li>
+					<p id="a1"></p>
+
+
+					<hr>
+
+					<!-- Here is Question two -->
+					<li class="first">
+						<label for="sQ2">when Guld'dan died? (which expansion)(5):</label>
+						<input type="text" id="sQ2">
+					</li>
+					<p id="a2"></p>
+
+					<hr>
+
+					<!-- Here is Question 1 with options -->
+					<li>
+						<p>Which one is the hardest dungeon in shadowlands(6):</p>
+					</li>
+					<div>
+						<input type="radio" id="t1Q1" name="tQ1" value="t1Q1" checked>
+						<label for="t1Q1">De Other Side</label>
+						<input type="radio" id="t2Q1" name="tQ1" value="t2Q1">
+						<label for="t2Q1">Spires Of Ascension</label>
+						<input type="radio" id="t3Q1" name="tQ1" value="t3Q1">
+						<label for="t3Q1">Theatre Of Pain</label>
+						<input type="radio" id="t4Q1" name="tQ1" value="t4Q1">
+						<label for="t4Q1">Sanguine Dephs</label>
+					</div>
+
+					<p id="a3"></p>
+
+					<hr>
+
+					<!-- Here is Question 2 with options -->
+					<li>
+						<p>which options below are healers?(9)</p>
+					</li>
+					<div>
+						<input type="checkbox" id="t1Q2" name="tQ2">
+						<label for="t1Q2">Assassin Rogue</label>
+						<input type="checkbox" id="t2Q2" name="tQ2">
+						<label for="t2Q2">Discipline Priest</label>
+						<input type="checkbox" id="t3Q2" name="tQ2">
+						<label for="t3Q1">Brewmaster Monk</label>
+						<input type="checkbox" id="t4Q2" name="tQ2">
+						<label for="t4Q1">Holy Paladin</label>
+						<input type="checkbox" id="t5Q2" name="tQ2">
+						<label for="t5Q1">Restoration Shaman</label>
+					</div>
+
+					<p id="a4"></p>
+
+					<hr>
+
+					<!-- Here is Question 3 with options -->
+					<li>
+						<p>Do you like World Of Warcraft?</p>
+					</li>
+					<input type="radio" id="t1Q3">
+					<label for="t1Q3">YES</label>
+					<input type="radio" id="t2Q3">
+					<label for="t2Q3">NO</label>
+
+					<li style="list-style: none;">
+						<h1 id="pointToShow"></h1>
+						<h1 id="descpToShow"></h1>
+					</li>
+					<hr />
+
+				</ul>
+				<button type="button" onClick="grade()">Check answers</button>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+</html>
